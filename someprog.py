@@ -1,3 +1,1 @@
-
-print('somethelse')
 print('somethelse')
