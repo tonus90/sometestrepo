@@ -6,3 +6,12 @@ def numinstep(num, step):
 
 result = numinstep(5, 55)
 print(result)
+
+def countdown(num):
+    print(num)
+    return countdown(num-1)
+
+try:
+    print(countdown(5))
+except RecursionError as err:
+    print('ok')
