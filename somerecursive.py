@@ -4,7 +4,7 @@ def numinstep(num, step):
     else:
         return num * numinstep(num, step-1)
 
-result = numinstep(5, 55)
+result = numinstep(5, 3)
 print(result)
 
 # def countdown(num):
@@ -47,3 +47,8 @@ def max_elem(lst):
         return max_elem(lst) 
 
 print(max_elem([2,3,5,5,7,7,8,6,5,4,4,1,6]))
+
+
+
+
+print([1,2,3,4,5][1:])
